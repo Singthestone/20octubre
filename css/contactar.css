@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    transition: 2s;
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-image: url(../img/desktop/eye.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 100px solid red;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+a:hover {
+    transition: 2s;
+    border: 0px solid red;
+}

@@ -1,4 +1,84 @@
 /* *********************************** */
+
+
 /* *** Estilos SOLO para index.html *** */
+
+
 /* *********************************** */
 
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px;
+    grid-template-areas: ". circle1 ." "circle4 contactar circle2" ". circle3 .";
+}
+
+.circle1 {
+    grid-area: circle1;
+    justify-self: center;
+    align-self: center;
+}
+
+.circle2 {
+    grid-area: circle2;
+    justify-self: end;
+}
+
+.circle3 {
+    grid-area: circle3;
+    justify-self: center;
+    align-self: center;
+}
+
+.circle4 {
+    grid-area: circle4;
+}
+
+.contactar {
+    grid-area: contactar;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.circle1:hover {
+    background-color: blue;
+}
+
+.circle2:hover {
+    background-color: red;
+}
+
+.circle3:hover {
+    background-color: yellow;
+}
+
+.circle4:hover {
+    background-color: green;
+}
