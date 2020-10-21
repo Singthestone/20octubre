@@ -1,10 +1,9 @@
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: flex;
-    flex-direction: column;
 }
 
 .cir {
@@ -12,13 +11,13 @@ body {
     display: block;
     height: 200px;
     width: 200px;
+    border: 100px solid #579abe;
+    box-sizing: border-box;
+    border-radius: 50%;
     background-image: url(../img/desktop/eye.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 100px solid #579abe;
-    box-sizing: border-box;
-    border-radius: 50%;
 }
 
 .cir:hover {
@@ -30,7 +29,8 @@ body {
     text-decoration: none;
     font-family: Helvetica, sans-serif;
     color: black;
-    align-self: center;
+    align-self: flex-end;
+    justify-self: flex-end;
 }
 
 .volver:hover {
