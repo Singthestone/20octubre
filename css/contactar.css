@@ -3,6 +3,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .cir {
@@ -19,7 +21,18 @@ body {
     border-radius: 50%;
 }
 
-a:hover {
+.cir:hover {
     transition: 2s;
     border: 0px solid #579abe;
+}
+
+.volver {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    align-self: center;
+}
+
+.volver:hover {
+    color: #579abe;
 }
