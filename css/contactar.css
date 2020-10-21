@@ -14,12 +14,12 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 100px solid red;
+    border: 100px solid #579abe;
     box-sizing: border-box;
     border-radius: 50%;
 }
 
 a:hover {
     transition: 2s;
-    border: 0px solid red;
+    border: 0px solid #579abe;
 }

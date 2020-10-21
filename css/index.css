@@ -68,17 +68,17 @@ a {
 }
 
 .circle1:hover {
-    background-color: blue;
+    background-color: #c23b23;
 }
 
 .circle2:hover {
-    background-color: red;
+    background-color: #eada52;
 }
 
 .circle3:hover {
-    background-color: yellow;
+    background-color: #03c03c;
 }
 
 .circle4:hover {
-    background-color: green;
+    background-color: #579abe;
 }
